@@ -1,0 +1,38 @@
+{
+  "name": "dialogflow--gpt3",
+  "version": "1.0.0",
+  "description": "DialogFlow with openAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "api": "nodemon generateMp3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khairallah17/dialogFlow--GPT3.git"
+  },
+  "author": "khairallah17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khairallah17/dialogFlow--GPT3/issues"
+  },
+  "homepage": "https://github.com/khairallah17/dialogFlow--GPT3#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.3.0",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "github:mysqljs/mysql",
+    "ngrok": "^4.3.3",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "twilio": "^3.84.0",
+    "uuid": "^9.0.0",
+    "yarn": "^1.22.19"
+  }
+}
